@@ -4,7 +4,7 @@
 #include "MQ135.h"
 #include <ESP8266WiFi.h> 
  
-String apiKey = "JN90N79YUFHJSN1VDQPE7";     //  Enter your Write API key from ThingSpeak
+String apiKey = "M7Z52GJ6O0YBDDMX";     //  Enter your Write API key from ThingSpeak
  
 const char *ssid =  "WiFi Username";     // replace with your wifi ssid and wpa2 key
 const char *pass =  "WiFi Password";
