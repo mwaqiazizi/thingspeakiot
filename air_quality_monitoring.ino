@@ -6,13 +6,13 @@
  
 String apiKey = "M7Z52GJ6O0YBDDMX";     //  Enter your Write API key from ThingSpeak
  
-const char *ssid =  "WiFi Username";     // replace with your wifi ssid and wpa2 key
-const char *pass =  "WiFi Password";
+const char *ssid =  "HARIS-TP-LINK";     // replace with your wifi ssid and wpa2 key
+const char *pass =  "tunggudulu";
 const char* server = "api.thingspeak.com";
 const int sensorPin= 0;
 int air_quality;
 
-#define DHTPIN 4            //Connect to GPIO 2 in NodeMCU Board
+#define DHTPIN D4            //Connect to D4 in NodeMCU Board
  
 DHT dht(DHTPIN, DHT11);
  
